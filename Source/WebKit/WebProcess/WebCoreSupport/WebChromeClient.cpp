@@ -113,6 +113,10 @@
 #import <WebCore/WebGPUCreateImpl.h>
 #endif
 
+#include "WebCore/BarcodeDetectorInterface.h"
+#include "WebCore/FaceDetectorInterface.h"
+#include "WebCore/TextDetectorInterface.h"
+
 #if HAVE(SHAPE_DETECTION_API_IMPLEMENTATION)
 #import <WebCore/BarcodeDetectorImplementation.h>
 #import <WebCore/FaceDetectorImplementation.h>
